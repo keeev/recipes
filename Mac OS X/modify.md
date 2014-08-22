@@ -9,6 +9,8 @@ Everytime I accidently hit cmd + left the dashboard appeared, prevent it with th
 
 ## add spaces to dock
 
+![docks + spaces](https://raw.githubusercontent.com/keeev/recipes/master/assets_readme/dock.png)
+
 `defaults write com.apple.dock persistent-apps -array-add '{"tile-type"="spacer-tile";}'`
 `killall Finder`
 
