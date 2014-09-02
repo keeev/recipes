@@ -22,3 +22,5 @@
   'ctrl-c': 'editor:toggle-line-comments'
   'ctrl-a': 'block-comment:toggle'
   'cmd-alt-l': 'editor:auto-indent'
+  'cmd-up': 'editor:move-line-up'
+  'cmd-down': 'editor:move-line-down'
