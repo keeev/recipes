@@ -26,3 +26,5 @@
   'alt-down': 'editor:move-line-down'
   'cmd-l': 'go-to-line:toggle'
   'ctrl-alt': 'tree-view:toggle'
+'.platform-darwin .editor':
+  'cmd-d': 'editor:delete-line'
