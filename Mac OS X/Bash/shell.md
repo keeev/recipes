@@ -9,6 +9,7 @@ lh () {
         cd /Applications/MAMP/htdocs $1 $2 $3
 }`
 
+`
 gitm() {
         git log --branches --not --remotes
-}
+}`
