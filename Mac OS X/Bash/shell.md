@@ -8,3 +8,7 @@ Using "lh" (localhost) to jump to htdocs folder, accpets 3 more commands
 lh () {
         cd /Applications/MAMP/htdocs $1 $2 $3
 }`
+
+gitm() {
+        git log --branches --not --remotes
+}
