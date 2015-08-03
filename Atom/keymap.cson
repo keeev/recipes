@@ -12,19 +12,15 @@
 # '.editor':
 #   'enter': 'editor:newline'
 #
-# 'body':
+# '.workspace':
 #   'ctrl-P': 'core:move-up'
 #   'ctrl-p': 'core:move-down'
 #
 
-
-'.editor':
+'atom-text-editor':
   'ctrl-c': 'editor:toggle-line-comments'
   'ctrl-a': 'block-comment:toggle'
   'cmd-alt-l': 'editor:auto-indent'
   'alt-up': 'editor:move-line-up'
   'alt-down': 'editor:move-line-down'
   'cmd-l': 'go-to-line:toggle'
-  'ctrl-alt': 'tree-view:toggle'
-'.platform-darwin .editor':
-  'cmd-d': 'editor:delete-line'
