@@ -1,6 +1,18 @@
 # Useful shell scripts
 
 
+### Build prompt
+
+```
+PS1="\[\033]0;\w\007\]"
+PS1+="\n" 
+PS1+="${style_user}\u" 
+PS1+="${style_chars} -> " 
+PS1+="${style_path}\w" 
+PS1+="\n" 
+PS1+="${style_chars}-> \[${RESET}\]" 
+```
+
 ### Quick jump to localhost
 
 Using "lh" (localhost) to jump to htdocs folder, accpets 3 more commands
