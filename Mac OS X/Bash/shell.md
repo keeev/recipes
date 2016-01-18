@@ -53,10 +53,11 @@ files () {
 
 ### Hide files/icons on desktop but show them in finder
 
-`
+
+```
 filesDesktop () {
  defaults write com.apple.finder CreateDesktop -bool false && killall Finder
-
-}`
+}
+```
 
 
