@@ -60,4 +60,11 @@ filesDesktop () {
 }
 ```
 
+### Export Sketch Artboards to specific folder
+
+
+```
+sd () {
+  sketchtool export artboards $1.sketch --output=$2 --overwriting=yes --include-namespaces=yes
+}
 
